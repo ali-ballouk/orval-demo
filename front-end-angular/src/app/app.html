@@ -1,0 +1,9 @@
+<h1>Users</h1>
+
+@for (user of users(); track user.id) {
+<div>
+  <p>{{ user.name }}</p>
+  <p>{{ user.email }}</p>
+  <hr />
+</div>
+}
