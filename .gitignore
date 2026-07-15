@@ -1,36 +1,78 @@
-# Node modules
-node_modules/
+#############################################
+# Angular / TypeScript
+#############################################
 
-# Compiled JavaScript
+node_modules/
 dist/
 build/
-out/
+coverage/
+.angular/
+.cache/
 
-# TypeScript build info
-*.tsbuildinfo
-
-# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
+*.tsbuildinfo
+
+#############################################
 # Environment files
+#############################################
+
 .env
 .env.*
 
-# IDE files
+#############################################
+# Visual Studio Code
+#############################################
+
 .vscode/
+
+#############################################
+# Visual Studio / C#
+#############################################
+
+.vs/
+bin/
+obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+#############################################
+# Rider / IntelliJ
+#############################################
+
 .idea/
 
+#############################################
+# NuGet
+#############################################
+
+packages/
+*.nupkg
+
+#############################################
+# Test Results
+#############################################
+
+TestResults/
+
+#############################################
 # OS files
+#############################################
+
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Coverage
-coverage/
+#############################################
+# Temporary files
+#############################################
 
-# Package manager
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+*.tmp
+*.temp
